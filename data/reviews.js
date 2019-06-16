@@ -123,7 +123,7 @@ let randomRating = function () {
 
 let storageArr = [];
 //create array of messages data
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i < 10000000; i++) {
     storageArr.push(new db.Review({
       id: i,
       imagePath: 'placeholder',

@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import $ from 'jquery';
 import ReviewList from './ReviewList';
 import ReviewStars from './ReviewStars';
 import styled from 'styled-components';
@@ -10,9 +9,6 @@ import totalReviewAverage from '../data/totalReviewAverage';
 import reviewAverages from '../data/reviewAverages';
 
 import Typography from '@material-ui/core/Typography';
-import { Icon, InlineIcon } from '@iconify/react';
-import baselineChevronRight from '@iconify/react/ic/baseline-chevron-right';
-import twotoneChevronLeft from '@iconify/react/ic/twotone-chevron-left';
 import ReactPaginate from 'react-paginate';
 
 
